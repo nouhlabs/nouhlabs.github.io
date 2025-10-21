@@ -58,6 +58,10 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+	.logo-short {
+    	display: none;
+	}
+
 
         nav ul {
             list-style: none;
@@ -351,6 +355,14 @@
             section {
                 padding: 3rem 1rem;
             }
+		.logo-full {
+    			display: none;
+			}
+
+		.logo-short {
+    		display: block;
+}
+
         }
     </style>
 </head>
@@ -358,7 +370,9 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo">nouhlabs</div>
+            <div class="logo logo-full">nouhlabs</div>
+		<div class="logo logo-short">NM</div>
+
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
