@@ -425,8 +425,11 @@
 /* Mobile responsive improvements */
 @media (max-width: 768px) {
     .project-card h3 {
-        font-size: 1.5rem !important;
+        font-size: 1.3rem !important;
         word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+        line-height: 1.4;
     }
     
     .project-card {
@@ -435,6 +438,11 @@
     
     .project-content {
         padding: 1rem !important;
+    }
+    
+    .project-image {
+        width: 100%;
+        margin-bottom: 1rem;
     }
 }
 
